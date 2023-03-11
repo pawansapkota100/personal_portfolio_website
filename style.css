@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li,a,button{
+    font-family: "mantserrat",sans-serif;
+    font-weight: bold 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+button{
+    background-color: rgb(190, 58, 148);
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 35px;
+    align-items: center;
+    background-color: #161414;
+    /* animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+
+
+}
+@keyframes example {
+    from {background-color: #afafaf;}
+    to {background-color: black;}
+}
+.half{
+    color: rgb(190, 58, 148);
+    margin-right: auto;
+}
+.front{
+    animation-name: text-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes text-animation{
+    from {color: black;}
+    to {color: white;}
+}
+button{
+    padding: 9px 25px;
+    border-radius: 50px;
+    transition: all 3s ease 0s;
+}
+li{
+    list-style: none;
+
+}
+.top_nav li{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+.top_nav li a{
+    transition: all 0.3s ease 0s;
+    
+}
+.top_nav li a:hover{
+    color: rgb(190, 58, 148);
+}
+
+
+/* navigation bar end from here  */
+
+.first{
+  background-image: url("https://images.unsplash.com/photo-1475137979732-b349acb6b7e3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFuIHRoaW5raW5nfHx8fHx8MTY2NDc2ODc4Ng&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  filter: blur();
+  -webkit-filter: blur(8px);
+  
+}
+.item{
+    border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.item p{
+    font-size: 100px;
+    text-shadow: 2px 2px white;
+   
+}
+
+span::before {
+    content: "Programmer";
+    animation: animate infinite 3s;
+    color:  rgb(190, 58, 148);
+    padding-left: 10px;
+    text-shadow: 2px 2px black;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Programmer";
+    }
+
+    50% {
+        content: "Developer";
+    }
+
+    75% {
+        content: "Designer";
+    }
+}
+
+
+.hire button{
+    padding: 20px ;
+    width: 250px;
+    background-color: black;
+    color:  rgb(190, 58, 148);
+    margin-top: 25px;
+}
+.social a{
+    color: white;
+    font-size: 30px;
+    padding: 5px ;
+}
+.social a:hover{
+    color:  rgb(190, 58, 148);
+    transition: all 0.3s ease 0s;
+}
+.skill{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.skill div{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin: 15px 0px 15px 150px;
+    height: 150px;
+}
+.skill div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.skill div ul{
+    line-height: 2;
+}
+.skill h2{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+section {
+        margin: 40px auto;
+        width: 80%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+  /* Footer CSS */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Link color */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect on links */
+  a:hover {
+    color: #aaa;
+    text-decoration: underline;
+  }
+  
+  /* Social media icon */
+  .social-media-icon {
+    margin-right: 10px;
+  }
+
